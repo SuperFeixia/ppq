@@ -58,10 +58,9 @@ export default {};
       margin-left: 15px;
       font-size: 14px;
       color: #cccccc;
-      border: 0; //去除未选中状态边框
-      outline: none; //去除选中状态边框
-      background-color: rgba(0,0,0,0,); //透明背景
-    }
+      border: 0; 
+      outline: none; 
+      background-color: rgba(0,0,0,0,); 
     .box-4{
       display: flex;
       width: 82%;
@@ -87,9 +86,9 @@ export default {};
           font-size: 14px;
           color: #cccccc;
           line-height: 20px;
-          border: 0; //去除未选中状态边框
-          outline: none; //去除选中状态边框
-          background-color: rgba(0,0,0,0,); //透明背景
+          border: 0; 
+          outline: none; 
+          background-color: rgba(0,0,0,0,); 
         }
       }
       .a{
@@ -103,11 +102,26 @@ export default {};
         color: #0e8ed8;
         line-height: 44px;
         margin-left: 15px;
-
-
-      }
-
+       }
     }
+     .b5 {
+    margin: 30px auto;
+    width: 82%;
+    height: 44px;
+    background: #ff552e;
+    border-radius: 22px;
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+    line-height: 44px;
+  }
+    .b6 {
+    margin-top: 30px;
+    text-align: center;
+    height: 20px;
+    font-size: 14px;
+    color: #0e8ed8;
+    line-height: 20px;
   }
 
 }
